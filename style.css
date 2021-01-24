@@ -23,7 +23,7 @@ body {
     display: table;
 }
 h1{
-    font-size: 30px;
+    font-size: 40px;
     font-family: monospace;
     font-weight: 300;
 }
@@ -79,4 +79,25 @@ p{
 .links:hover{
     background-color: deepskyblue;
     font-size: 25px;
+}
+#videos{
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Abel', sans-serif;
+}
+#work{
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Abel', sans-serif;
+}
+#writings{
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Abel', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
